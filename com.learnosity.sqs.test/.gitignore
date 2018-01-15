@@ -1,0 +1,6 @@
+/target/
+/aws-java-sdk-1.11.263/*
+/elasticmq-server-0.13.8.jar
+/aws-java-sample/*
+/.metadata/
+/test-output/*
