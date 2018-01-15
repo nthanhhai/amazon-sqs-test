@@ -6,3 +6,5 @@
 /aws-java-sample/
 /aws-java-sdk-1.11.263.zip
 /aws-java-sample/
+~*.docx
+~*.tmp
