@@ -193,10 +193,10 @@ public class CreateQueue extends BaseTest {
             System.out.println("Validating Queue URL");
             Assert.assertEquals(myQueueUrl, expectedQueueUrl(MyQueue));
 
-            System.out.println("Createing duplicated queue");
+            System.out.println("Creating duplicated queue");
             try {
 	            CreateQueueRequest createDuplicatedQueueRequest = new CreateQueueRequest(MyQueue);
-	            String myDuplicatedQueueUrl = sqsClient.createQueue(createDuplicatedQueueRequest).getQueueUrl();
+	            sqsClient.createQueue(createDuplicatedQueueRequest).getQueueUrl();
             } catch (AmazonSQSException ex){
                 if (!ex.getErrorCode().equals("QueueAlreadyExists")) {
                     throw new Exception ("No error returned for duplicated queue name. " + ex);            	
