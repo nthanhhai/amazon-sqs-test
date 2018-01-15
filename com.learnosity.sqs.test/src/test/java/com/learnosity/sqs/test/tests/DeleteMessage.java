@@ -74,7 +74,7 @@ public class DeleteMessage extends BaseTest {
 	}
 	
 
-	public void DeleteMessageWithoutMessageHadle() throws Exception {
+	public void DeleteMessageWithoutMessageHandle() throws Exception {
 		throw new Exception ("Not implemented");
 	}
 	
@@ -86,7 +86,7 @@ public class DeleteMessage extends BaseTest {
 		throw new Exception ("Not implemented");		
 	}
 	
-	public void DeleteMessageWithInvalidMessageHanle() throws Exception {
+	public void DeleteMessageWithInvalidMessageHandle() throws Exception {
 		throw new Exception ("Not implemented");
 	}
 	
