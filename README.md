@@ -2,7 +2,7 @@
 Sample repo contains all the tests created for Learnosity Tech Test
 
 
-#Testing Approaches
+# Testing Approaches
 For this test, I applied following approach:
 -	Cover core functionalities of Core API
 	o	CreateQueue
@@ -32,7 +32,7 @@ What are not good with the submission?
 -	Too much repetitive code. I was exploring the functionality, and the quickest way was to copy code. 
 -	The coverage may not as extensive as an API test suite should have.
 
-#Future development:
+# Future development:
 -	Reduce redundant code: develop more library for common functions, like send message, receive message, delete queue, etc.
 -	Develop a skeleton of test, which other similar APIs can reuse. Just need to pass different set of parameters.
 -	Load parameters’ value from external file. Currently, I’m using hardcode value and random string, which is not ideal for automation testing.
