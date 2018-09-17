@@ -1,6 +1,5 @@
-# learnosity-sqs-test
-Sample repo contains all the tests created for Learnosity Tech Test
-
+# amazon-sqs-test
+Sample repo contains sample tests for Amazon SQS
 
 # Testing Approaches
 For this test, I applied following approach:
